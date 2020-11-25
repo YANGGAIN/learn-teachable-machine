@@ -52,8 +52,8 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      Me: 'Me에 대한 설명을 적어볼까요?',
-      None: 'None에 대한 설명을 적어볼까요?',
+      case: '이건 내 에어팟 케이스이다',
+      water: '이건 물이다',
     };
 
     if (probability >= 75) {

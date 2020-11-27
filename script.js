@@ -59,6 +59,7 @@ async function predict() {
       Leon: '리온이다',
       Ponyo: '포뇨이다',
       Bulginghead: '짱구이다',
+      Mao: '마오이다',
     };
 
     if (probability >= 75) {

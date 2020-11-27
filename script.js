@@ -52,8 +52,13 @@ async function predict() {
     const probability = prediction[i].probability.toFixed(2) * 100;
 
     const data = {
-      case: '이건 내 에어팟 케이스이다',
-      water: '이건 물이다',
+      Pororo: '뽀로로이다',
+      Rupee: '루피이다',
+      Crong: '크롱이다',
+      KangRim: '강림이다',
+      Leon: '리온이다',
+      Ponyo: '포뇨이다',
+      Bulginghead: '짱구이다',
     };
 
     if (probability >= 75) {
